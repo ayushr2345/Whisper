@@ -1,34 +1,27 @@
 {
-  "name": "secrets",
+  "name": "whisper",
   "version": "1.0.0",
+  "description": "",
   "main": "app.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "author": "Ayush Ranjan",
-  "license": "ISC",
-  "dependencies": {
-    "bcrypt": "^5.0.0",
-    "body-parser": "^1.19.0",
-    "dotenv": "^8.2.0",
-    "ejs": "^3.1.3",
-    "express": "^4.17.1",
-    "express-session": "^1.17.1",
-    "md5": "^2.2.1",
-    "mongoose": "^5.9.18",
-    "mongoose-encryption": "^2.0.2",
-    "passport": "^0.4.1",
-    "passport-local": "^1.0.0",
-    "passport-local-mongoose": "^6.0.1"
-  },
-  "devDependencies": {},
   "repository": {
     "type": "git",
     "url": "git+https://github.com/ayushr2345/Whisper.git"
   },
+  "author": "Ayush Ranjan",
+  "license": "ISC",
   "bugs": {
     "url": "https://github.com/ayushr2345/Whisper/issues"
   },
   "homepage": "https://github.com/ayushr2345/Whisper#readme",
-  "description": ""
+  "dependencies": {
+    "body-parser": "^1.19.1",
+    "dotenv": "^14.2.0",
+    "ejs": "^3.1.6",
+    "express": "^4.17.2",
+    "mongoose": "^6.1.7",
+    "mongoose-encryption": "^2.1.2"
+  }
 }
